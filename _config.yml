@@ -16,8 +16,7 @@
 title: Peter Ullrich Blog
 email: emailtopeet@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog of Peter Ullrich about technology, software development,
-  psychology, books, and more.
+  Personal blog of Peter Ullrich about software development, psychology and more
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pjullrich
@@ -25,7 +24,7 @@ github_username:  pjullrich
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
