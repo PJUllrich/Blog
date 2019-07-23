@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.btn-github {
+  display: none !important;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
