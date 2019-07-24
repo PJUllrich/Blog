@@ -11,3 +11,16 @@
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+#main_content {
+  max-width: 45rem;
+
+  .view {
+    display: none;
+  }
+}
