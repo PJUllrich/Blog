@@ -26,6 +26,12 @@ markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:   
+    id: UA-88830671-1
+    anonymizeIp: true 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

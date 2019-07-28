@@ -3,8 +3,19 @@
 
 @import "{{ site.theme }}";
 
-.btn-github {
-  display: none !important;
+.container {
+  width: 45rem;
+}
+
+header {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container {
+    padding-left: 5rem;
+  }
 }
 
 .post-date {
