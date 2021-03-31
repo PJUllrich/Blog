@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 title: Peter Ullrich
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Joseph is a super minimal content focus theme for Jekyll.
+# logo: # You can add own logo. For example '/images/logo.png'.
+description: Personal blog of Peter Ullrich, an Elixir developer from Germany.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://peterullrich.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -21,7 +21,7 @@ social:
 - {icon: "storefront", label: Letter to Yourself, link: "https://www.lettertoyourself.com"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
+# Other icons can be found at https://ionicons.com/
 
 #-------------------------------
 # Hero Settings
