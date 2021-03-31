@@ -5,35 +5,10 @@ permalink: /about/
 image: '/images/01-1.jpg'
 ---
 
-Sin tantum est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum, empulla enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus ages tandem finxerit.
+I'm Peter Ullrich, an Elixir developer and bicycle activist living in Cologne, Germany. I studied Psychology and Computing Science at the University of Groningen, a [Top 100](https://www.rug.nl/about-ug/profile/facts-and-figures/position-international-rankings?lang=en#:~:text=In%20the%202021%20Subject%20rankings,and%20Social%20sciences%20(92).) University in [the Netherlands](https://goo.gl/maps/JKUhVqjQTfA17rFz5).
 
-***
+Since 2019, I work in Cologne, Germany, as a senior software engineer for [Studitemps](https://studitemps.de) where I build systems focused on student [temping](https://dictionary.cambridge.org/dictionary/english/temping). I (try to) work according to [Domain-driven Design]() and [Test-driven Development]() principles, write 99% of my code in [Elixir](https://elixir-lang.org/), build frontends preferably with [Phoenix LiveView](https://github.com/phoenixframework/phoenix_live_view), and attempt to apply my Psychology knowledge in the IT context.
 
-![Workflow]({{site.baseurl}}/images/09-1.jpg)
-*Photo by [Daniel Romero](https://unsplash.com/@rmrdnl) on Unsplash*
+My personal projects and side jobs include a time-capsule/mailing service [Letter to Yourself](https://lettertoyourself.com), a software solution for efficient decision making [DecisionMaker](https://decisionmaker.k-i-e.com), a YouTube channel focussed on sharing my learnings on software architecture and Elixir development [PeterAndCode](https://www.youtube.com/channel/UCiKq_ns5yMQcmcSPS17q9jg/videos), diverse projects for the [ADFC Köln](https://kreisverbaende.adfc-nrw.de/kv-koeln/adfc-koeln-ev.html), a pro-bicycle club, including an overview of all traffic accidents in Cologne [Verkehrsunfälle Köln](https://verkehrsunfaelle.adfc.koeln/) and diverse data crawling scripts like [Dauerzählstellen Köln](https://github.com/PJUllrich/Dauerzaehlstellen-Koeln) and [Parkhausauslastung Köln](https://github.com/PJUllrich/Parkhausauslastung-Koeln).
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit.
-
-***
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/09-2.jpg">
-    <img src="/images/09-3.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente potest.
-
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
-
-Ego quoque, inquit, didicerim libentius si quid attuleris, quam te rephenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis voluptatibus? Utram tandem linguam nescio? Quod dicit Epicurus etiam de voluptate, quae minime sint voluptates.
-
-***
-
-<p><iframe src="https://player.vimeo.com/video/107654760" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-***
-
-An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi sapiente potest. Tecum optime, deinde etiam cum.
+In the past, I hosted the [Explain Blockchain](https://podcasts.apple.com/us/podcast/explain-blockchain/id1326636335) podcast, became a ConsenSys certified Solidity Developer, won the Blockchain Hackathon Groningen in [2017](https://www.groningenatwork.com/nieuws/twee-winnaars-van-blockchain-competitie-bekend) with the team from [Forus](https://forus.io/), came in second in [2018](https://www.rug.nl/news/2018/04/blockchain-hackathon_-turning-current-parking-policy-upside-down_?lang=en), and wrote my master thesis about [Blockchain in Education](https://fse.studenttheses.ub.rug.nl/17833/1/Masterthesis%20-%20Peter%20Ullrich%20-%20Blockchain%20in%20Education.pdf). I worked in South Africa as a high school teacher, traveled the west-coast of Africa on a motorcycle, and spoke at international conferences about topics like [Design Patterns in Python](https://www.youtube.com/watch?v=bsyjSW46TDg) and [Event Storming in Elixir](https://www.youtube.com/watch?v=YBUoNRRhNic).
