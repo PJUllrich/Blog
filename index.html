@@ -1,24 +1,17 @@
-<html>
+---
+layout: default
+---
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-</head>
+{% include hero.html %}
 
-<body>
-    <div id="info">
-        <div id="info-text">
-            <span class="title-xl">Peter Ullrich</span>
-            <span class="title-l">Software Engineer</span>
-            <span class="title-l">Bicycle Activist</span>
-        </div>
-        <div id="socials">
-            <a href="https://twitter.com/pjullrich"><img src="assets/twitter.png" class="social"></a>
-            <a href="https://linkedin.com/in/pjullrich"><img src="assets/linkedin.png" class="social"></a>
-            <a href="https://instagram.com/peterullrich"><img src="assets/instragram.png" class="social"></a>
-            <a href="https://medium.com/@peter.j.ullrich"><img src="assets/medium.png" class="social"></a>
-        </div>
-    </div>
-</body>
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+      {% for post in paginator.posts %}
+        {% include article-content.html %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
 
-</html>
+{% include pagination.html %}
