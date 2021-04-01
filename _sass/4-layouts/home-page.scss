@@ -10,19 +10,19 @@
 .article__title {
   margin-bottom: 32px;
   font-size: 48px;
-  line-height: .85em;
+  line-height: 0.85em;
   text-transform: uppercase;
 
   a {
     &:hover {
       color: var(--heading-font-color);
-      i {
+      ion-icon {
         opacity: 1;
         transform: translateX(3px);
       }
     }
 
-    i {
+    ion-icon {
       opacity: 0;
       transition: 0.2s linear;
     }
@@ -32,7 +32,7 @@
     margin-bottom: 24px;
     font-size: 32px;
 
-    a i {
+    a ion-icon {
       display: none;
     }
   }

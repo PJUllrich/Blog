@@ -45,8 +45,6 @@
       object-fit: cover;
       border-radius: 2px;
     }
-
-
   }
 
   @media only screen and (max-width: 1140px) {
@@ -82,11 +80,10 @@
 }
 
 .hero__right {
-
   .hero__title {
     margin-bottom: 32px;
     font-size: 68px;
-    line-height: .85em;
+    line-height: 0.85em;
     font-weight: 900;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -148,11 +145,8 @@
       border: 1px solid var(--border-color);
       color: var(--heading-font-color);
       background: var(--background-color);
-      transition: all .25s;
-
-      i {
-        line-height: 49px;
-      }
+      transition: all 0.25s;
+      padding-bottom: 1px;
 
       &:hover {
         transform: translate3d(3px, -3px, 0);

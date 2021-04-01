@@ -8,7 +8,6 @@ $(document).ready(function () {
     searchOpenIcon = $(".nav__icon-search"),
     searchCloseIcon = $(".search__close"),
     searchBox = $(".search"),
-    toggleTheme = $(".toggle-theme"),
     searchInput = $(".search__text");
 
   /* ==================================

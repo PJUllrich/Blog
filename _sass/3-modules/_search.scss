@@ -9,12 +9,12 @@
   overflow: auto;
   opacity: 0;
   background: var(--background-color);
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 
   &.is-visible {
     z-index: 100;
     opacity: 1;
-    transition: all .25s ease;
+    transition: all 0.25s ease;
   }
 }
 
@@ -40,9 +40,9 @@
     line-height: 1;
     color: var(--heading-font-color);
     cursor: pointer;
-    transition: all .25s;
+    transition: all 0.25s;
 
-    i {
+    ion-icon {
       vertical-align: middle;
     }
 
@@ -63,7 +63,7 @@
     background-color: var(--background-color);
     box-shadow: 8px 8px 0 var(--heading-font-color);
     outline: none;
-    transition: all .25s;
+    transition: all 0.25s;
 
     &::placeholder {
       font-weight: 700;

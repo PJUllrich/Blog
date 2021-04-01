@@ -8,7 +8,7 @@
   border-bottom: 1px solid var(--border-color);
 
   @media only screen and (max-width: $mobile) {
-    padding: 32px 0
+    padding: 32px 0;
   }
 }
 
@@ -34,7 +34,7 @@
 
 .pagination__next,
 .pagination__prev {
-  i {
+  ion-icon {
     font-size: 13px;
   }
 
@@ -50,13 +50,13 @@
 }
 
 .pagination__next {
-  i {
+  ion-icon {
     margin-left: 4px;
   }
 }
 
 .pagination__prev {
-  i {
+  ion-icon {
     margin-right: 4px;
   }
 }

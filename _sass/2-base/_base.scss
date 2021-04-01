@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -10,7 +12,7 @@ body {
   background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: all .25s;
+  transition: all 0.25s;
 
   @media only screen and (max-width: $desktop) {
     font-size: 18px;
@@ -147,7 +149,7 @@ img,
 img,
 .zoom-img-wrap,
 .gallery {
-  &+em {
+  & + em {
     display: block;
     margin-top: 20px;
     font-size: 14px;
@@ -156,7 +158,7 @@ img,
     font-weight: normal;
     text-align: center;
     color: var(--heading-font-color);
-  
+
     a {
       font-weight: 700;
       border-bottom: 3px solid var(--border-color);
@@ -166,7 +168,7 @@ img,
         border-color: transparent;
       }
     }
-  
+
     @media only screen and (max-width: $mobile) {
       margin-top: 12px;
     }
@@ -226,7 +228,7 @@ table th {
 
 table tr {
   background-color: var(--tr-color);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   &:nth-child(even) {
     background-color: transparent;
   }
@@ -250,7 +252,7 @@ table td {
   background-color: var(--button-background-color);
   outline: none;
   cursor: pointer;
-  transition: all .25s;
+  transition: all 0.25s;
 
   &:hover {
     background: var(--button-background-hover);
@@ -258,5 +260,19 @@ table td {
 
   &:active {
     transform: translateY(2px);
+  }
+}
+
+.align {
+  &-top {
+    vertical-align: top;
+  }
+
+  &-middle {
+    vertical-align: middle;
+  }
+
+  &-bottom {
+    vertical-align: bottom;
   }
 }
