@@ -42,7 +42,7 @@
     user-select: none;
     background-color: var(--text-color);
   }
-  
+
   @media only screen and (max-width: $desktop) {
     height: 460px;
     margin-bottom: 40px;
@@ -76,7 +76,7 @@
 .page__title {
   margin-bottom: 40px;
   font-size: 72px;
-  line-height: .85em;
+  line-height: 0.85em;
   text-transform: uppercase;
 
   @media only screen and (max-width: 1140px) {
@@ -118,7 +118,6 @@
 }
 
 .post__share {
-
   .share__list {
     display: flex;
     align-items: center;
@@ -174,7 +173,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  
+
   .post__tag {
     padding: 12px 24px;
     margin: 4px 8px 4px 0;
@@ -186,15 +185,21 @@
     border-radius: 4px;
     color: var(--text-alt-color);
     background-color: var(--light-gray);
-  
+
     &:last-child {
       margin-right: 0;
     }
-  
+
     &:hover {
       color: var(--dark);
     }
   }
+}
+
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px !important;
 }
 
 /* Author */
@@ -232,7 +237,7 @@
     font-size: 20px;
     text-transform: uppercase;
     line-height: 1;
-    
+
     &:hover {
       a {
         color: var(--heading-font-color);
@@ -301,7 +306,7 @@
     margin-bottom: 48px;
     color: var(--text-alt-color);
   }
-  
+
   @media only screen and (max-width: $mobile) {
     .error__title {
       font-size: 68px;
