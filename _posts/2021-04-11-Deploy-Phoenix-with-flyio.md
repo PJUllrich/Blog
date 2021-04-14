@@ -152,7 +152,8 @@ RUN mix release
 # Stage 2: Create a smaller deployment image (image size: ~98mb)
 FROM bitwalker/alpine-elixir:latest
 
-# Make sure that this PORT is equal to the one above and to the one in fly.toml
+# Make sure that this PORT is equal to the one above
+# and to the one in fly.toml
 ENV PORT=4000
 ENV MIX_ENV=prod
 
