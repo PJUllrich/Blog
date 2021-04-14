@@ -116,6 +116,7 @@ Fly.io only supports deploying Docker images as of now. We need to create a Dock
 Create a `Dockerfile` and copy the following code into it:
 
 ```dockerfile
+# Stage 1: Build a Mix.Release of the application (image size: ~750mb)
 FROM bitwalker/alpine-elixir-phoenix:latest AS phx-builder
 
 WORKDIR /app
@@ -131,12 +132,14 @@ ENV MIX_ENV=prod
 
 # Cache elixir deps
 ADD mix.exs mix.lock ./
-RUN mix do deps.get, deps.compile
+RUN mix do deps.get --only prod, deps.compile
 
 # Cache npm deps
 ADD assets/package.json assets/
 RUN npm install --prefix assets
 
+# Copy all local files to the build context
+# Ignores the ones specified in .dockerignore
 ADD . .
 
 # Run frontend build, compile, and digest assets
@@ -146,25 +149,40 @@ RUN mix do compile, phx.digest
 # Create a Mix.Release of the application
 RUN mix release
 
+# Stage 2: Create a smaller deployment image (image size: ~98mb)
 FROM bitwalker/alpine-elixir:latest
 
-EXPOSE 4000
-ENV PORT=4000 MIX_ENV=prod
+# Make sure that this PORT is equal to the one above and to the one in fly.toml
+ENV PORT=4000
+ENV MIX_ENV=prod
 
 WORKDIR /app
 
-RUN chown nobody:nobody /app
+# Create a unprivileged user to run the app
+#
+# This is a common security practice to avoid
+# giving root permissions to the application which attackers 
+# could potentially abuse if they gain access to the application.
+ENV USER="phoenix"
+ENV HOME=/home/"${USER}"
+ENV APP_DIR="${HOME}/app"
+RUN \
+  addgroup \
+  -g 1000 \
+  -S "${USER}" && \
+  adduser \
+  -s /bin/sh \
+  -u 1000 \
+  -G "${USER}" \
+  -h "${HOME}" \
+  -D "${USER}" && \
+  su "${USER}" sh -c "mkdir ${APP_DIR}"
 
-USER nobody:nobody
+# Copy the files necessary to run the application
+COPY --from=phx-builder --chown="${USER}":"${USER}" /app/_build/prod/rel/my_app ./
+COPY --from=phx-builder --chown="${USER}":"${USER}" /app/entrypoint.sh ./
 
-COPY --from=phx-builder --chown=nobody:nobody /app/_build/prod/rel/my_app ./
-
-ADD entrypoint.sh ./
-
-ENV HOME=/app
-ENV MIX_ENV=prod
-ENV PORT=4000
-
+# Define the entrypoint and the command it should execute
 ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["bin/my_app", "start"]
 ```
@@ -178,6 +196,8 @@ assets/node_modules
 _build
 deps
 test
+mix.lock
+package-lock.json
 ```
 
 The last step is to create an `entrypoint.sh` script, which migrates our database and starts our application.
@@ -219,7 +239,7 @@ This command will ask you a few questions. I added example answers below:
 ? App name: my-app-postgres
 Automatically selected personal organization: Your Name
 ? Select region: fra (Frankfurt, Germany)
-? Select VM size: shared-cpu-1x - 256
+? Select VM size: shared-cpu-**1x** - 256
 ? Volume size (GB): 10
 Creating postgres cluster my-app-postgres in organization personal
 Postgres cluster my-app-postgres created
