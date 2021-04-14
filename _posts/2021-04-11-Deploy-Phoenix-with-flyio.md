@@ -224,10 +224,10 @@ If you haven't already, please install the [flyctl](https://fly.io/docs/getting-
 
 ```bash
 # To sign up
-flyctl signup
+flyctl auth signup
 
 # To log in
-flyctl login
+flyctl auth login
 ```
 
 Now that you are logged in, let's first provision our app with a `postgres` instance. In order to create a new postgres cluster, run:
