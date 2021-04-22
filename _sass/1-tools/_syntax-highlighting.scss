@@ -2,6 +2,12 @@
   Syntax Highlighting
 */
 
+code.highlighter-rouge {
+  background-color: var(--syntax-highlighting-background);
+  padding: 0 0.3rem 0.1rem 0.3rem;
+  border-radius: $global-radius;
+}
+
 .highlight {
   border-radius: $global-radius;
   background-color: var(--syntax-highlighting-background);

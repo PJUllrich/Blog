@@ -282,7 +282,6 @@ If you run the above command, you can choose a region for the app. Don't worry. 
 This will create the `fly.toml` file, which configures the deployment to fly.io.
 
 ```toml
-# 1
 app = "my-app"
 
 kill_signal = "SIGINT"
