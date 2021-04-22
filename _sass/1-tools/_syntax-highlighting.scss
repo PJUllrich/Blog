@@ -3,6 +3,7 @@
 */
 
 .highlight {
+  border-radius: $global-radius;
   background-color: var(--syntax-highlighting-background);
   font-size: 1rem;
   margin-bottom: 32px;
@@ -16,7 +17,6 @@
   .highlight,
   .highlight .w {
     color: #f8f8f2;
-    background-color: #272822;
   }
   .highlight .err {
     color: #272822;

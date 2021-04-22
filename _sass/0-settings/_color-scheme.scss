@@ -9,7 +9,7 @@
   --background-color: var(--dark);
   --background-alt-color: #080b12;
 
-  --text-color: #9a9eab;
+  --text-color: var(--white);
   --text-alt-color: #848690;
 
   --heading-font-color: var(--light-gray);
@@ -26,5 +26,5 @@
 
   --tr-color: #080b12;
 
-  --syntax-highlighting-background: #080b12;
+  --syntax-highlighting-background: #1f2937;
 }
