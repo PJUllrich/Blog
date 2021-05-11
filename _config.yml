@@ -10,13 +10,14 @@ url: "https://peterullrich.com" # the base hostname & protocol for your site, e.
 # Author Settings
 author:
   name: Peter Ullrich
-  bio: I'm a designer & products creator. I teach designers code and developers design. Passionate about people, health, & design systems.
+  bio: I'm an Elixir developer with a Psychology background, Founder of Letter to Yourself, YouTuber at PeterAndCode, Ex-Host of ExplainBlockchain, and ConsenSys-certified Blockchain developer. Passionate about sharing knowledge, sports, Africa, and bicycle activism.
   avatar: '/images/01.jpg'
 
 social:
 - {icon: "logo-twitter", label: Twitter, link: "https://twitter.com/pjullrich"}
 - {icon: "logo-linkedin", label: LinkedIn, link: "https://linkedin.com/in/pjullrich"}
 - {icon: "logo-github", label: GitHub, link: "https://github.com/pjullrich"}
+- {icon: "mic", label: ExplainBlockchain, link: "https://podcasts.apple.com/us/podcast/explain-blockchain/id1326636335"}
 - {icon: "logo-youtube", label: YouTube, link: "https://www.youtube.com/channel/UCiKq_ns5yMQcmcSPS17q9jg/videos"}
 - {icon: "logo-medium", label: Medium, link: "https://peterullrich.medium.com"}
 - {icon: "storefront", label: Letter to Yourself, link: "https://www.lettertoyourself.com"}
@@ -28,7 +29,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I’m Peter! Developer & Educator.
-  hero__description: I'm an Elixir developer with a Psychology background, Founder of Letter to Yourself, Youtuber at PeterAndCode. Passionate about sharing knowledge, sports, and bicycle activism.
+  hero__description: I'm an Elixir developer with a Psychology background, Founder of Letter to Yourself, YouTuber at PeterAndCode, Ex-Host of ExplainBlockchain, and ConsenSys-certified Blockchain developer. Passionate about sharing knowledge, sports, Africa, and bicycle activism.
   hero__image: '/images/01.jpg'
 
 
