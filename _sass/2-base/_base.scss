@@ -28,6 +28,18 @@ body {
   background-color: var(--brand-color);
 }
 
+.font-2xl,
+.font-xl,
+.font-lg,
+.font-md,
+.font-md,
+.font-sm,
+.font-xs {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  color: var(--heading-font-color);
+}
+
 h1,
 h2,
 h3,
@@ -40,27 +52,27 @@ h6 {
   color: var(--heading-font-color);
 }
 
-h1 {
+h1, .font-2xl {
   font-size: $font-size-h1;
 }
 
-h2 {
+h2, .font-xl {
   font-size: $font-size-h2;
 }
 
-h3 {
+h3, .font-lg {
   font-size: $font-size-h3;
 }
 
-h4 {
+h4, .font-md {
   font-size: $font-size-h4;
 }
 
-h5 {
+h5, .font-sm {
   font-size: $font-size-h5;
 }
 
-h6 {
+h6, .font-xs {
   font-size: $font-size-h6;
 }
 

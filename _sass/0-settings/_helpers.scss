@@ -12,3 +12,58 @@
 .screen-reader-text {
   @include screen-reader();
 }
+
+$steps: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 20, 24, 28, 32, 40;
+
+@each $step in $steps {
+  // Margin helpers
+  .m-#{$step} {
+    margin: 0.25rem * $step;
+  }
+  .ml-#{$step} {
+    margin-left: 0.25rem * $step;
+  }
+  .mr-#{$step} {
+    margin-right: 0.25rem * $step;
+  }
+  .mx-#{$step} {
+    margin-left: 0.25rem * $step;
+    margin-right: 0.25rem * $step;
+  }
+  .mt-#{$step} {
+    margin-top: 0.25rem * $step;
+  }
+  .mb-#{$step} {
+    margin-bottom: 0.25rem * $step;
+  }
+  .my-#{$step} {
+    margin-top: 0.25rem * $step;
+    margin-bottom: 0.25rem * $step;
+  }
+
+  // Padding helpers
+  .p-#{$step} {
+    padding: 0.25rem * $step;
+  }
+  .pl-#{$step} {
+    padding-left: 0.25rem * $step;
+  }
+  .pr-#{$step} {
+    padding-right: 0.25rem * $step;
+  }
+  .px-#{$step} {
+    padding-left: 0.25rem * $step;
+    padding-right: 0.25rem * $step;
+  }
+  .pt-#{$step} {
+    padding-top: 0.25rem * $step;
+  }
+  .pb-#{$step} {
+    padding-bottom: 0.25rem * $step;
+  }
+  .py-#{$step} {
+    padding-top: 0.25rem * $step;
+    padding-bottom: 0.25rem * $step;
+  }
+}
+
