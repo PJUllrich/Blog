@@ -3,7 +3,7 @@ layout: post
 title:  How to deploy a Phoenix project with Fly.io
 description: Fly.io allows you to quickly deploy a Phoenix application in different regions in the world. Here is how to get started.
 date:   2021-04-11 07:01:35 +0200
-tags:   [development, elixir]
+tags:   [development, phoenix, elixir]
 ---
 
 José Valim recently twittered about the [Liveview-Cluster](https://github.com/fly-apps/phoenix-liveview-cluster) project, which showcased how state can be shared among a global cluster of Elixir nodes.
