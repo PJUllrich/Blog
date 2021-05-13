@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 ---
 [
   {% for post in site.posts %}
@@ -10,7 +10,7 @@ layout: null
       "tags"     : "{{ post.tags | array_to_sentence_string }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines }}"
+      "content"  : "{{ post.description | strip_html | strip_newlines | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

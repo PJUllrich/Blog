@@ -72,7 +72,7 @@ plugins:
   - jekyll/tagging
   - jekyll-twitter-plugin
 
-paginate: 5
+paginate: 10
 paginate_path: "/page/:num"
 
 # Pages Path

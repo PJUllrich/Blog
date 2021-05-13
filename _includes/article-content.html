@@ -8,6 +8,8 @@
         ></a>
       </h2>
 
+      <p class="article__excerpt">{{ post.description }}</p>
+
       <div class="article__meta">
         <time
           class="article__date"
@@ -21,8 +23,6 @@
           endif %}
         </span>
       </div>
-
-      <p class="article__excerpt">{{ post.description }}</p>
 
       <div class="article__bottom">
         {% if post.tags.size >= 1 %}
